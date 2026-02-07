@@ -1,5 +1,5 @@
 
-export const API_URL = 'https://restaurant-reservation-system-tnsg.onrender.com';
+export const API_URL = 'https://restaurant-reservation-system-tnsg.onrender.com/api';
 
 export const COLORS = {
   // Colores primarios - Púrpura 
