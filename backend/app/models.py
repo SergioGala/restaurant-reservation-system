@@ -12,7 +12,7 @@ class Restaurant(db.Model):
     description = db.Column(db.Text, nullable=True)
     address = db.Column(db.String(200), nullable=False)
     city = db.Column(db.String(100), nullable=False)
-    photo_url = db.Column(db.String(500), nullable=True)
+    photo_url = db.Column(db.String(500), nullable=True, default='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4')
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     
     # Relación con reservas (1TM)
