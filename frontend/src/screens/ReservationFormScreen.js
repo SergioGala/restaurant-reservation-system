@@ -244,7 +244,7 @@ export default function ReservationFormScreen({ navigation, route }) {
           left={<TextInput.Icon icon="account-group" />}
           error={!numberOfPeople}
         />
-        <HelperText type="info">Mínimo 1, máximo 20 personas</HelperText>
+        <HelperText type="info">Mínimo 1, máximo 15 personas</HelperText>
 
         {/* Botón de confirmación */}
         <Button
